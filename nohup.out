@@ -1,0 +1,13 @@
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+./app.py:8: MonkeyPatchWarning: Monkey-patching ssl after ssl has already been imported may lead to errors, including RecursionError on Python 3.6. It may also silently lead to incorrect behaviour on Python 3.7. Please monkey-patch earlier. See https://github.com/gevent/gevent/issues/1016. Modules that had direct imports (NOT patched): ['urllib3.util.ssl_ (/home/xiayu/final/exp/env/lib/python3.8/site-packages/urllib3/util/ssl_.py)', 'urllib3.util (/home/xiayu/final/exp/env/lib/python3.8/site-packages/urllib3/util/__init__.py)']. 
+  monkey.patch_all()
+ * Running on http://0.0.0.0:5050/ (Press CTRL+C to quit)
+ * Restarting with stat
+/home/xiayu/final/demo/app.py:8: MonkeyPatchWarning: Monkey-patching ssl after ssl has already been imported may lead to errors, including RecursionError on Python 3.6. It may also silently lead to incorrect behaviour on Python 3.7. Please monkey-patch earlier. See https://github.com/gevent/gevent/issues/1016. Modules that had direct imports (NOT patched): ['urllib3.util (/home/xiayu/final/exp/env/lib/python3.8/site-packages/urllib3/util/__init__.py)', 'urllib3.util.ssl_ (/home/xiayu/final/exp/env/lib/python3.8/site-packages/urllib3/util/ssl_.py)']. 
+  monkey.patch_all()
+ * Debugger is active!
+ * Debugger PIN: 174-180-532

@@ -1,0 +1,10 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway: http://127.0.0.1:8080
+functions:
+  add-1-delay:
+    lang: python3
+    handler: ./add-1-delay
+    image: add-1-delay:latest
+    replicas: 0
